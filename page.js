@@ -838,7 +838,7 @@ const configureCss = (() => {
       }
     }
 
-    if (config.disableHomeFeed && loggedIn) {
+    if (config.disableHomeFeed) {
       if (desktop) {
         hideCssSelectors.push(
           // Prevent flash of content while redirecting
